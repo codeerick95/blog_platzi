@@ -1,0 +1,26 @@
+.nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 90px;
+}
+
+.nav__logo-container {
+	margin-left: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.nav__logo-image {
+	width: 220px;
+}
+
+.nav__profile-link-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 1rem;
+}
+
+.nav__link {
+	border-bottom: 1px solid #000000;
+}

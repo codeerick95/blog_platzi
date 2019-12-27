@@ -1,0 +1,34 @@
+.header {
+	width: 100%;
+	height: 140px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.header__icons-container {
+	background-color: #47cfac;
+	width: 100%;
+	height: 50px;
+	display: grid;
+}
+
+.icons {
+	width: 250px;
+	height: auto;
+	/*display: flex;
+	justify-items: flex-end;
+	justify-content: space-between;
+	align-items: center;
+	justify-self: end;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-self: flex-end;
+	margin-right: 1rem;
+
+	span {
+		color: #fff;
+	}
+}
+
+@import "nav";

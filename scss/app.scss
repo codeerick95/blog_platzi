@@ -6,6 +6,9 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+.home__body {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -22,3 +25,4 @@ a {
 @import 'components/buttons';
 @import 'components/header';
 @import 'components/home';
+@import 'pages/blog';
